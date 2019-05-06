@@ -1,9 +1,7 @@
 <template>
     <div class="lheader">
-        <router-link>首页</router-link>
-
-      
-        <router-link :to="{path:'/regards'}">关于</router-link>
+      <router-link :to="{path:'/lheader'}">首页</router-link>
+      <router-link :to="{path:'/regards'}">关于</router-link>
     </div>
 </template>
 
