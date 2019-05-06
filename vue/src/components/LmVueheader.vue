@@ -1,6 +1,6 @@
 <template>
     <div class="lheader">
-        <router-link>首页</router-link>
+        <router-link :to="{path:'/lheader'}">首页</router-link>
         <router-link>关于</router-link>
     </div>
 </template>
